@@ -13,7 +13,7 @@ void print_is_same() {
   std::cout << std::is_same<T1, T2>() << '\n';
 }
 
-int test_remove_reference() {
+void test_remove_reference() {
   std::cout << std::boolalpha;
 
   print_is_same<int, int>();
