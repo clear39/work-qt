@@ -13,15 +13,29 @@
 
 #include "parser.h"
 #include "read_file.h"
+#include "move_forward_test.h"
+
+
+#include "test_bind.h"
+
+#include "test_string.h"
+
+#include "test_getopt.h"
 
 using namespace std;
 
 
 
-int main(){
+int main(int argc,char** argv){
+    test_getopt_main(argc,argv);
 
+    //test_string();
 
-    test_read_dir();
+    //test_bind();
+
+    //test_move_forward_main();
+
+    //test_read_dir();
 
 
     char data_copy[] = "write /proc/1/oom_score_adj -1000\n";

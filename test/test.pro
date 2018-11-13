@@ -28,4 +28,8 @@ HEADERS += \
     memoryblock.h \
     test.h \
     parser.h \
-    read_file.h
+    read_file.h \
+    move_forward_test.h \
+    test_bind.h \
+    test_string.h \
+    test_getopt.h
